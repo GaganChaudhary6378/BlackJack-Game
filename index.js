@@ -33,7 +33,7 @@ function renderGame(){
     }
     total.textContent="Sum: "+sum;
     if(sum<=20){
-        message="Do you want to choose more cards";
+        message="Do you want to choose more cards?";
     }
     else if(sum===21){
         message="Hey Congo You got the BlackJack!!"
